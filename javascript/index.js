@@ -104,7 +104,7 @@ for(let i = 0 ; i <= 7 ; i++){
 Promise.all(steps).then((values) => {
   values.forEach((item)=>{
     document.querySelector("#brusselsSprouts").innerHTML += `<li>${item}</li>`
-  })
+  })  
   document.querySelector("#brusselsSprouts").innerHTML += `<li>Brussels sprouts are ready!</li>`
   document.querySelector('#brusselsSproutsImg').removeAttribute("hidden")
 })  
